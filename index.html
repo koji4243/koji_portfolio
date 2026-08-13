@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="layout">
+            <aside class="sidebar">
+                <img
+                    src="image/rocket.png"
+                    alt="ロケット"
+                    class="sidebar__image"
+                />
+                <h2 class="sidebar__title">ポートフォリオ</h2>
+                <p>< 成果物一覧 ></p>
+
+                <ul class="sidebar__list">
+                    <li>
+                        <a href="#portfolio-1"
+                            >カーセンサー風<br />中古車販売サイト</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#portfolio-2">
+                            日本放送協会(NHK)<br />
+                            予約通知アプリ</a
+                        >
+                    </li>
+                    <li><a href="#portfolio-3">Portfolio 3</a></li>
+                </ul>
+            </aside>
+            <main class="main">
+                <article id="portfolio-1" class="portfolio-item">
+                    <div>
+                        <p>ある方は悩んでいました。</p>
+                        <p class="worries">
+                            Aさん「うーん、中古車たくさんの人に見てもらいたいし、来店数も増やしたい。」
+                        </p>
+                        <p class="worries">
+                            Bさん「サブスクにお金を使いたくない。でも、TV番組も見逃したくない。」
+                        </p>
+                    </div>
+
+                    <div class="portfolio-title">
+                        <h3>カーセンサー風 中古車販売サイト</h3>
+                        <div class="section-1">
+                            <p>
+                                使用言語<br />
+                                PHP<span class="version">version 8.2</span
+                                ><br />
+                                フレームワーク<br />
+                                WordPress<span class="version">version 7.0</span
+                                ><br />
+                                データベース<br />
+                                MySQL<span class="version">version 8.4</span
+                                ><br />
+                            </p>
+                            <p>
+                                以下は、トップページです。スクロールしていくと、、、
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="portfolio-item__image">
+                            <img
+                                src="image/car_top.png"
+                                alt="サイトトップ画像"
+                            />
+                        </div>
+                        <div>
+                            <p class="margin-top">
+                                さらにスクロールしていくと、、、
+                            </p>
+                        </div>
+                        <div class="portfolio-item__image">
+                            <img src="image/news.png" alt="news" />
+                        </div>
+                        <div>
+                            <p class="margin-top">さらに、、、</p>
+                        </div>
+                        <div class="portfolio-item__image">
+                            <img src="image/cars.png" alt="cars" />
+                        </div>
+                        <div>
+                            <p class="margin-top">
+                                申し訳ありません！以降、手を抜いています。<br />
+                                見て頂きたかったのは、上記２つのコンテンツです。これは、この後紹介する管理者画面で投稿するだけで、自動的にトップページへ反映されます。フォーム入力と画像選択を直感的に操作でき、とても簡単です。スクロールを進めていってください。
+                            </p>
+                        </div>
+                        <div class="portfolio-item__image">
+                            <img src="image/company.png" alt="company" />
+                        </div>
+                        <div>
+                            <p class="margin-top">
+                                ログイン完了後、以下の管理者画面が開きます。<br />
+                                今回の中古車販売サイトを例でいうと、使う項目は赤枠内の二つです。”中古車を追加”をクリックすると、、、
+                            </p>
+                        </div>
+                        <div class="portfolio-item__image relative">
+                            <img src="image/admin_top.png" alt="管理者画面" />
+                            <div class="portfolio-item__image absolute">
+                                <img
+                                    src="image/admin_add_car.png"
+                                    alt="管理者画面、中古車追加"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <p class="margin-top">
+                                以下のようなフォーム入力画面が開きます。<br />
+                                スクロールしていくと画像選択ボタンがあるので、クリックして頂くと自身のエクスプローラが起動します。必須項目を入力して、画面右側にある赤枠内の”公開”をクリックすれば完了です。
+                            </p>
+                        </div>
+                        <div class="portfolio-item__image relative">
+                            <img
+                                src="image/admin_add_car2.png"
+                                alt="中古車追加"
+                            />
+                            <div class="portfolio-item__image absolute">
+                                <img
+                                    src="image/admin_add_car3.png"
+                                    alt="管理者画面、中古車追加3"
+                                />
+                            </div>
+                        </div>
+                        <div>
+                            <p class="margin-top">
+                                編集や、削除も可能です。数が多くなる場合には、検索機能やページネーションを加える事でユーザビリティが向上します。
+                                News（お知らせ）も、使い方は同じ要領です。例えば、ご来店時（サイト記載のキーワード提示頂ければ）ドリンク一杯無料と促し、店内では売上アップに繋がる催しを施しておく。なんていう使い方も想像できます。
+                            </p>
+                        </div>
+                        <div class="portfolio-item__image">
+                            <img src="image/cars5.jpg" alt="中古車追加" />
+                        </div>
+                        <div>
+                            <p class="margin-top">
+                                さて、冒頭でのAさんの悩みは解決したでしょうか？（実際には、まだ作りこむ必要があります）<br />
+                                いえ、サーバに乗せなければ何も始まりません。えっと、chown、、、?
+                                ワッツ?の状態であったインフラ未経験の私が、レンタルサーバやVPSで公開できるまでになりました。半端ではない難しさで、今でも自身がフリーズする場面はよくあります。しかし、学習を続けていく中で”学び”の大切さが芽生えていきます。（遅）<br />
+                                そんな初学者の私が、Bさんの悩み解決に向けて挑みました。続きを読んで頂けると嬉しいです。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="portfolio-2" class="portfolio-title">
+                        <h3>日本放送協会(NHK) 予約通知アプリ</h3>
+                        作成中
+                        <div class="section-1">
+                            <!-- <p>
+                                使用言語<br />
+                                PHP<span class="version">version 8.2</span
+                                ><br />
+                                フレームワーク<br />
+                                WordPress<span class="version">version 7.0</span
+                                ><br />
+                                データベース<br />
+                                MySQL<span class="version">version 8.4</span
+                                ><br />
+                            </p> -->
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+    </body>
+</html>
