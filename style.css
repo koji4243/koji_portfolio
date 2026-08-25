@@ -74,6 +74,12 @@ html {
     border-radius: 8px;
     background-color: #f5f5f5;
 }
+.image-grid__item:nth-child(4) {
+    order: 1;
+}
+.image-grid__item:nth-child(3) {
+    order: 2;
+}
 
 .image-grid__item:nth-child(1)::after {
     content: "▶▶▶";
@@ -88,7 +94,7 @@ html {
 }
 .image-grid__item:nth-child(1)::before {
     content: "";
-    width: 408px;
+    width: 420px;
     height: 36px;
     position: absolute;
     top: 56%;
@@ -119,7 +125,7 @@ html {
     pointer-events: none;
     z-index: 10;
 }
-.image-grid__item:nth-child(3)::after {
+.image-grid__item:nth-child(4)::after {
     content: "▶▶▶";
     position: absolute;
     top: 50%;
@@ -364,13 +370,17 @@ h3 {
     object-fit: cover;
     user-select: none;
 }
+
+#comparison2,
+#comparison,
 #content {
     background-color: #111 !important;
     padding: 16px;
     border-radius: 8px;
     color: #fff;
 }
-
+#comparison2 *,
+#comparison *,
 #content * {
     background-color: transparent !important;
 }
@@ -396,4 +406,10 @@ dd {
     border-radius: 8px;
     color: red;
     font-weight: bold;
+}
+.reservation {
+    background: linear-gradient(transparent 70%, #30e448 0%);
+}
+.last_reservation {
+    background: linear-gradient(transparent 70%, red 0%);
 }
