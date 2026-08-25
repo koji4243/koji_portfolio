@@ -407,6 +407,9 @@ dd {
     color: red;
     font-weight: bold;
 }
+.read {
+    background: linear-gradient(transparent 70%, #f8e356 0%);
+}
 .reservation {
     background: linear-gradient(transparent 70%, #30e448 0%);
 }
