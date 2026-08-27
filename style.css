@@ -316,11 +316,13 @@ h3 {
     .image-grid__item:nth-child(1)::after,
     .image-grid__item:nth-child(2)::after,
     .image-grid__item:nth-child(3)::after {
+        position: absolute;
         content: "▼";
         top: auto;
         bottom: -38px;
         left: 50%;
         right: auto;
+        color: red;
         transform: translateX(-50%);
         font-size: 1.3rem;
         z-index: 10;
@@ -346,6 +348,10 @@ h3 {
 
     dl {
         grid-template-columns: 90px 1fr;
+    }
+    h3 {
+        font-size: 0.88rem;
+        padding-left: 8px;
     }
 }
 
